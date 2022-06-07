@@ -1,10 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
     return (
         <div className="container text-center mx-auto px-4 py-12 space-y-8 text-lg md:text-xl">
+            <Head>
+                <title>Simplehearted Ministries</title>
+            </Head>
             <div>
                 <h1 className="text-3xl md:text-4xl font-bold uppercase">
                     Simplehearted Ministries Inc.
